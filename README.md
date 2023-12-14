@@ -17,10 +17,10 @@ Send UDP Msg using Macro Deck 2
 
 使用方式如下：
 
-![1.jpeg](https://picss.sunbangyan.cn/2023/12/13/745aa1d83cd4142334e16ee1d0a8db4e.jpeg)<br><br>
+![1.jpeg](https://picdl.sunbangyan.cn/2023/12/14/4620fa1067e6918927f432dd7d89fe12.jpeg)<br><br>
 
 
-Argument："127.0.0.1,1001,STR,Helloworld"
+Argument："127.0.0.1,,1001,,STR,,{\\"mac\":\\"d0bae4643364\\",\\"plug_0\":{\\"on\\":0}}"
 
 127.0.0.1：UDP服务器地址。
 
@@ -30,4 +30,6 @@ STR：代表发送的是字符串消息。
 
 HEX：代表发送的是Hex消息。
 
-Helloworld：消息。
+{\\"mac\":\\"d0bae4643364\\",\\"plug_0\\":{\\"on\\":0}}：消息，注意部分字符可能需要转义。<br><br>
+
+**PS：Enigma Virtual Box打包为单文件会被报毒，V0.0.0.2后都不打包了**
